@@ -1,0 +1,46 @@
+[
+  {
+    "parking_zone_id": "mitinskaya_zone_001",
+    "name": "Mitinskaya Street Parking Zone",
+    "type": "street_parking",
+    "price_per_hour": 80,
+    "currency": "RUB",
+    "capacity": 20,
+    "timezone": "Europe/Moscow",
+    "operating_hours": {
+      "start": "00:00",
+      "end": "24:00"
+    },
+    "open_24h": true,
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [37.354977, 55.855520],
+        [37.354751, 55.855279],
+        [37.354488, 55.855006]
+      ]
+    },
+    "spots": [
+      { "spot_id": "spot_01", "lng": 37.354977, "lat": 55.855520 },
+      { "spot_id": "spot_02", "lng": 37.354955, "lat": 55.855495 },
+      { "spot_id": "spot_03", "lng": 37.354933, "lat": 55.855470 },
+      { "spot_id": "spot_04", "lng": 37.354911, "lat": 55.855445 },
+      { "spot_id": "spot_05", "lng": 37.354889, "lat": 55.855420 },
+      { "spot_id": "spot_06", "lng": 37.354867, "lat": 55.855395 },
+      { "spot_id": "spot_07", "lng": 37.354845, "lat": 55.855370 },
+      { "spot_id": "spot_08", "lng": 37.354823, "lat": 55.855345 },
+      { "spot_id": "spot_09", "lng": 37.354801, "lat": 55.855320 },
+      { "spot_id": "spot_10", "lng": 37.354779, "lat": 55.855295 },
+      { "spot_id": "spot_11", "lng": 37.354751, "lat": 55.855279 },
+      { "spot_id": "spot_12", "lng": 37.354729, "lat": 55.855254 },
+      { "spot_id": "spot_13", "lng": 37.354707, "lat": 55.855229 },
+      { "spot_id": "spot_14", "lng": 37.354685, "lat": 55.855204 },
+      { "spot_id": "spot_15", "lng": 37.354663, "lat": 55.855179 },
+      { "spot_id": "spot_16", "lng": 37.354641, "lat": 55.855154 },
+      { "spot_id": "spot_17", "lng": 37.354619, "lat": 55.855129 },
+      { "spot_id": "spot_18", "lng": 37.354597, "lat": 55.855104 },
+      { "spot_id": "spot_19", "lng": 37.354575, "lat": 55.855079 },
+      { "spot_id": "spot_20", "lng": 37.354488, "lat": 55.855006 }
+    ]
+  }
+]
